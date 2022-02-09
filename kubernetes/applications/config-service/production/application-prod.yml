@@ -1,0 +1,14 @@
+spring:
+  config:
+    import: configtree:/workspace/secrets/*/
+  cloud:
+    bus:
+      enabled: true
+  rabbitmq:
+    host: polar-rabbitmq.rabbitmq-system.svc.cluster.local
+    port: 5672
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://86a976e43cff49d18ff7.eastus.aksapp.io/auth/realms/PolarBookshop  
