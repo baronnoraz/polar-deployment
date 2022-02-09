@@ -7,5 +7,5 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: ssh//git@github.com/baronnoraz/polar-deployment
+  url: ssh://git@github.com/baronnoraz/polar-deployment
 
