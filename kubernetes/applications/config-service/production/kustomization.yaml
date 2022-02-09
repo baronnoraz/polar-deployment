@@ -18,7 +18,7 @@ configMapGenerator:
 images:
 - name: config-service
   newName: ghcr.io/baronnoraz/config-service
-  newTag: 0.0.1
+  newTag: 0.0.2
 
 replicas:
 - count: 1
