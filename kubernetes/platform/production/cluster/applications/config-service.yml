@@ -7,7 +7,7 @@ spec:
   interval: 30s
   path: ./kubernetes/applications/config-service/production
   prune: true
-sourceRef:
+.sourceRef:
   kind: GitRepository
   name: applications
 targetNamespace: default
